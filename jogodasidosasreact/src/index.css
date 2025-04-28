@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.board-row{
+  display: flex;
+  justify-content: center;
+  
+}
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+.square:focus {
+  outline: none;
+}
+
+body{
+  text-align: center;
+  
+}
+ol{
+  list-style: none;
+}
+body{
+  background-color: black;
+  color: #d1d1d1;
+  font-size: 18px;
+  line-height: 1.6;
+}
+button{
+  border: none;
+  text-shadow: rgb(5, 156, 249) 1px 1px 2px;
+
+  background-color: black;
+  color: aquamarine;
+}
+.status{
+  color: aquamarine;
+  text-shadow: rgb(5, 156, 249) 1px 1px 2px;
+}
+.status:hover, button:hover, .square:hover{
+  color: #00ffff;
+  
+  
+  
+  text-shadow: rgb(5, 156, 249) 1px 1px 2px;
+}
+.square:hover{
+  border: #00ffff 1px solid;
+  box-shadow: 0px 0px 20px #00ffff;
+  z-index: 1;
+  animation: Abduh forwards 0.5ms ease-in;
+}
+.square{
+  background-color: #211f1f;
+}
+@keyframes Abduh {
+  0%{
+    scale: 1;
+  }
+  15%{
+    scale: 1.02;
+  }
+  30%{
+    scale: 1.05;
+  }
+  60%{
+    scale: 1.07;
+  }
+  100%{
+    scale: 1.1;
+  }
+}
