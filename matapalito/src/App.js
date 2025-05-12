@@ -1,7 +1,7 @@
 
 import './App.css';
 
-let palavra = 'jonasboiola';
+let palavra = '';
 let palavra_arr = palavra
 let vitoria = false
 let vidas = 10
