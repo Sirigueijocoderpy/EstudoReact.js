@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+  overflow: hidden;
+}
+.gu {
+  display: grid;
+  grid-template-columns: 10vw auto;
+  grid-template-rows: 40px 1fr 25px;
+  
+  height: 100vh;
+  width: 100vw;
+  grid-template-areas: 
+    "h h"
+    "m m"
+    "f f";
+}
+.header {
+  grid-area: h;
+  background-color: #242424;
+  color: white;
+}
+
+main {
+  grid-area: m;
+}
+footer {
+  grid-area: f;
+  background-color: #242424;
+  color: white;
+  font-family: "Ancizar Serif", serif;
+
+}
+.logo{
+  max-width: 39px;
+}
+.Imagem{
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: #242424 0px 0px 10px;
+
+  
+}
+.Efeito{
+  transition: ease-in-out 500ms;
+  color: #ffffff;
+
+
+  
+  text-shadow: #242424 0px 0px 10px;
+
+}
+.carrosel{
+  align-items: center;
+  box-shadow: #242424 0px 0px 10px;
+  display: flex;
+}
+.img-1car{
+  max-width: 500px;
+}
+.Efeito:hover{
+  transition: ease-out 500ms;
+  text-shadow: none;
+  color:#242424
+}
+
+
+.Escritura{
+  font-family: "Ancizar Serif", serif;
+  font-size: large;
+  font-weight: bold;
+
+}
+.Fundo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+main,footer,.container,nav,.header{
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px black;
+  
+}
+.lista{
+  margin-left:auto ;
+  display: flex;
+  flex-direction: row;
+}
+*{
+  margin: 0%;
+}
+
+.elementolista{
+  margin-left: 20px;
+  margin-right: 10px;
+
+}
+.elementolista:hover{
+  animation: elementoslista forwards 500ms;
+  
+}
+
+@keyframes elementoslista {
+  from{
+    color: white;
+
+  }
+  to{
+    color: #c6c6c6;
+  }
+  
+}
