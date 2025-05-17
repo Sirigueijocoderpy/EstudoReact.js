@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
 body{
   overflow: hidden;
+ 
 }
 .gu {
   display: grid;
@@ -93,6 +94,7 @@ main,footer,.container,nav,.header{
 .elementolista{
   margin-left: 20px;
   margin-right: 10px;
+  text-shadow:#7e7e7e 0px 0px 10px; 
 
 }
 .elementolista:hover{
