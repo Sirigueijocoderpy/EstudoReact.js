@@ -22,7 +22,7 @@ function App() {
   
   return (
     <>
-      <div className='container'>
+      <div className='abu'>
         <div class="row">
           <div class="col d-flex justify-content-center">
             <br />
